@@ -1,7 +1,7 @@
 # Linkedin Learning App
 
 
-Technologies : React Native-Expo-Animated
+Technologies : React Native Expo Animated
 
 ```diff
 ProfileScreen
