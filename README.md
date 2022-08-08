@@ -7,26 +7,30 @@ Technologies : React Native-Expo-Animated
 ProfileScreen
 ```
 
-<img src="https://user-images.githubusercontent.com/47538623/177077325-d227fc14-227c-429f-beb4-b92892ee0f7b.PNG" width="200" height="400">
+![l5](https://user-images.githubusercontent.com/47538623/183492498-1d71c1c2-6549-4dea-9837-7377b043c7fb.png)
+![l7](https://user-images.githubusercontent.com/47538623/183492603-96caa5bd-3047-499f-a425-6d8e18036311.png)
 
-<img src="https://user-images.githubusercontent.com/47538623/177077465-11ac7f1d-5c1b-4e1f-a462-e50f858bde13.PNG" width="200" height="400">
 
 ```diff
 HomeScreen
 ```
 
-<img src="https://user-images.githubusercontent.com/47538623/177077572-0e9a2454-6870-46a8-b951-ded72750193a.PNG" width="200" height="400">
+![l1](https://user-images.githubusercontent.com/47538623/183493025-dd12af99-840c-4e89-8745-25ce96ed79db.png)
 
 ```diff
 CourseScreen
 ```
+![l4](https://user-images.githubusercontent.com/47538623/183493734-f0b14fa0-4b58-48bd-9f85-d0c0fede5be9.png)
 
-<img src="https://user-images.githubusercontent.com/47538623/177077653-e245abd4-835c-4920-9d35-2813fe0f3f19.PNG" width="200" height="400">
-<img src="https://user-images.githubusercontent.com/47538623/177077713-e188decc-e6c7-464b-9816-a47e990aa9cc.PNG" width="200" height="400">
 
 ```diff
 SearchScreen
 ```
 
-<img src="https://user-images.githubusercontent.com/47538623/177077822-180f9242-a53c-441e-b643-8a35269de3e0.PNG" width="200" height="400">
-<img src="https://user-images.githubusercontent.com/47538623/177077835-d9a631c9-366f-4438-9b04-a0436d8ce7de.PNG" width="200" height="400">
+![l8](https://user-images.githubusercontent.com/47538623/183494351-ee4ccddb-baf5-44b1-9367-83b836cc5fec.png)
+
+
+```diff
+ProfileTeacherScreen
+```
+![l2](https://user-images.githubusercontent.com/47538623/183494044-8294ee98-eb2b-4e3d-aa92-0d4be86db9c0.png)
