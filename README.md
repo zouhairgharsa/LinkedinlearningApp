@@ -1,11 +1,36 @@
-# Sample Snack app
+# Linkedin Learning App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Technologies : React Native Expo Animated
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+```diff
+ProfileScreen
+```
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+![l5](https://user-images.githubusercontent.com/47538623/183492498-1d71c1c2-6549-4dea-9837-7377b043c7fb.png)
+![l7](https://user-images.githubusercontent.com/47538623/183492603-96caa5bd-3047-499f-a425-6d8e18036311.png)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+
+```diff
+HomeScreen
+```
+
+![l1](https://user-images.githubusercontent.com/47538623/183493025-dd12af99-840c-4e89-8745-25ce96ed79db.png)
+
+```diff
+CourseScreen
+```
+![l4](https://user-images.githubusercontent.com/47538623/183493734-f0b14fa0-4b58-48bd-9f85-d0c0fede5be9.png)
+
+
+```diff
+SearchScreen
+```
+
+![l8](https://user-images.githubusercontent.com/47538623/183494351-ee4ccddb-baf5-44b1-9367-83b836cc5fec.png)
+
+
+```diff
+ProfileTeacherScreen
+```
+![l2](https://user-images.githubusercontent.com/47538623/183494044-8294ee98-eb2b-4e3d-aa92-0d4be86db9c0.png)
