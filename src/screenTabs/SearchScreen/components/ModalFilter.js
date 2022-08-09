@@ -5,13 +5,15 @@ import { FontAwesome } from '@expo/vector-icons';
 
 const levels = ['Beginner', 'Intermediate', 'Advanced'];
 const star = [1, 2, 3, 4, 5];
-export const ModalFilter = ({
-  levelCourse,
-  onLevel,
-  starCourse,
-  onStar,
-  reset,
-}) => {
+
+export const ModalFilter = ({ reset, filterCourses, setFilterCourses }) => {
+  const handleSelectRating = (star) => {
+    setFilterCourses({ ...filterCourses, star });
+  };
+
+  const handleSelectLevel = (level) => {
+    setFilterCourses({ ...filterCourses, level });
+  };
   return (
     <View key={reset} style={{}}>
       <Text style={{ fontSize: 18, fontWeight: '700' }}>Level</Text>
@@ -20,9 +22,10 @@ export const ModalFilter = ({
         {levels.map((level, index) => (
           <Pressable
             key={index}
-            onPress={() => onLevel(level)}
+            onPress={() => handleSelectLevel(level)}
             style={{
-              backgroundColor: level === levelCourse ? '#0009' : 'white',
+              backgroundColor:
+                level === filterCourses.level ? '#0009' : 'white',
               marginRight: 4,
               paddingHorizontal: 12,
               paddingVertical: 5,
@@ -42,9 +45,10 @@ export const ModalFilter = ({
           {star.map((star, index) => (
             <Pressable
               key={index}
-              onPress={() => onStar(star)}
+              onPress={() => handleSelectRating(star)}
               style={{
-                backgroundColor: star === starCourse ? 'yellow' : 'white',
+                backgroundColor:
+                  star === filterCourses.star ? 'yellow' : 'white',
                 marginRight: 10,
                 paddingHorizontal: 10,
                 paddingVertical: 5,
@@ -58,7 +62,6 @@ export const ModalFilter = ({
               <Text style={{ fontSize: 15, marginLeft: 4 }}>{star}</Text>
             </Pressable>
           ))}
-
         </View>
       </View>
     </View>

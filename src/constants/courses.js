@@ -120,64 +120,58 @@ export const recommandedCourse = [
 ];
 
 export const courses = [
-    {
-        id: 0,
-        name: "React",
-        duration: "2h 30m",
-        instructor: "James Morris",
-        star: 4,
-        niveau:'Beginner',
-        is_favourite: true,
-        thumbnail: require("../assets/thumbnail1.png")
-    },
-    {
-        id: 1,
-        name: "Javascript",
-        duration: "2h 30m",
-        instructor: "James Morris",
-        ratings: 4,
-        niveau:'Beginner',
-        is_favourite: false,
-        thumbnail: require("../assets/thumbnail1.png")
-    },
-    {
-        id: 2,
-        name: "Typescript",
-        duration: "2h 30m",
-        instructor: "James Morris",
-        ratings: 3,
-        niveau:'Beginner',
-        is_favourite: true,
-        thumbnail: require("../assets/thumbnail1.png")
-    },
-    {
-        id: 3,
-        name: "AWS AMPLIFY",
-        duration: "2h 30m",
-        instructor: "James Morris",
-        ratings: 5,
-        niveau:'Beginner',
-        is_favourite: false,
-        thumbnail: require("../assets/thumbnail1.png")
-    },
-    {
-        id: 4,
-        name: "FIREBASE",
-        duration: "2h 30m",
-        instructor: "James Morris",
-        ratings: 3,
-        niveau:'Beginner',
-        is_favourite: false,
-        thumbnail: require("../assets/thumbnail1.png")
-    },
-    {
-        id: 5,
-        name: "REACT QUERY",
-        duration: "2h 30m",
-        instructor: "James Morris",
-        ratings: 1,
-        niveau:'Beginner',
-        is_favourite: false,
-        thumbnail: require("../assets/thumbnail1.png")
-    }
+  {
+    id: 0,
+    name: "React",
+    duration: "2h 30m",
+    instructor: "James Morris",
+    star: 4,
+    niveau: 'Beginner',
+    is_favourite: true,
+  },
+  {
+    id: 1,
+    name: "Javascript",
+    duration: "2h 30m",
+    instructor: "James Morris",
+    star: 2,
+    niveau: 'Intermediate',
+    is_favourite: false,
+  },
+  {
+    id: 2,
+    name: "Typescript",
+    duration: "2h 30m",
+    instructor: "James Morris",
+    star: 3,
+    niveau: 'Beginner',
+    is_favourite: true,
+  },
+  {
+    id: 3,
+    name: "AWS AMPLIFY",
+    duration: "2h 30m",
+    instructor: "James Morris",
+    star: 5,
+    niveau: 'Advanced',
+    is_favourite: false,
+  },
+  {
+    id: 4,
+    name: "FIREBASE",
+    duration: "2h 30m",
+    instructor: "James Morris",
+    star: 3,
+    niveau: 'Beginner',
+    is_favourite: false,
+  },
+  {
+    id: 5,
+    name: "REACT QUERY",
+    duration: "2h 30m",
+    instructor: "James Morris",
+    star: 1,
+    niveau: 'Beginner',
+    is_favourite: false,
+  }
 ]

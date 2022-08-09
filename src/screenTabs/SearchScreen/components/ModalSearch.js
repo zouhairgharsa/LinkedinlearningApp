@@ -12,13 +12,9 @@ import { MaterialIcons } from '@expo/vector-icons';
 const ModalSearch = ({
   modalVisible,
   setModalVisible,
-  levelCourse,
-  onLevel,
-  starCourse,
-  onStar,
-  onReset,
+  filterCourses,
+  setFilterCourses
 }) => {
-  const [reset, setRest] = useState(false);
   const { height } = useWindowDimensions();
   return (
     <Modal
@@ -30,7 +26,6 @@ const ModalSearch = ({
       }}>
       <View style={{ justifyContent: 'flex-end', flex: 1 }}>
         <View
-          key={reset}
           style={{
             zIndex: 5,
             position: 'absolute',
@@ -65,11 +60,8 @@ const ModalSearch = ({
           <View style={{ marginTop: 20 }}>
             <View style={{ marginTop: 12 }}>
               <ModalFilter
-                key={reset}
-                levelCourse={levelCourse}
-                onLevel={onLevel}
-                starCourse={starCourse}
-                onStar={onStar}
+                filterCourses={filterCourses}
+                setFilterCourses={setFilterCourses}
               />
             </View>
           </View>

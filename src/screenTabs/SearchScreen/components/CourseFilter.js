@@ -11,7 +11,7 @@ import {
 import { MaterialIcons, Entypo } from '@expo/vector-icons';
 
 const CourseFilter = ({ item }) => {
-  const { name, duration, instructor, star, niveau, is_favourite, thumbnail } =
+  const { name, duration, instructor, ratings, niveau, is_favourite, thumbnail } =
     item;
 
   return (
@@ -64,7 +64,7 @@ const CourseFilter = ({ item }) => {
             {niveau}
           </Text>
           <View style={{ flexDirection: 'row' }}>
-            {[...Array(star)].map((_, index) => (
+            {[...Array(ratings)].map((_, index) => (
               <Entypo key={index} name="star" size={20} color="yellow" />
             ))}
           </View>
