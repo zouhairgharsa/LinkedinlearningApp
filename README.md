@@ -7,7 +7,6 @@ Technologies : React Native Expo Animated
 ProfileScreen
 ```
 
-![l5](https://user-images.githubusercontent.com/47538623/183492498-1d71c1c2-6549-4dea-9837-7377b043c7fb.png)
 ![l7](https://user-images.githubusercontent.com/47538623/183492603-96caa5bd-3047-499f-a425-6d8e18036311.png)
 
 
